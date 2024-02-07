@@ -8,3 +8,4 @@ sources:
       - name: products  # enabled
       - name: categories  # not enabled
       - name: suppliers
+      - name: customers
