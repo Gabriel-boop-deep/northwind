@@ -1,0 +1,51 @@
+version: 2
+
+models:
+  - name: dim_produtos
+    description: Essa é a dimensão com informações dos clients da northwind
+    columns:   
+    - name: pk_produtos
+      description: COMPLETAR DOCUMENTAÇÃO
+      tests:
+        - unique
+        - not_null
+    - name: id_produto
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: id_fornecedor
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: id_categoria
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: nome_produto
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: quantidade_por_unidade
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: preco_por_unidade
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: unidades_em_estoque
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: unidades_por_ordem
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: nivel_abastecimento
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: is_discontinuado
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: nome_categoria
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: descricao_categoria
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: nome_fornecedor
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: contato_fornecedor
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: contato_funcao
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: endereco_fornecedor
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: cidade_fornecedor
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: regiao_fornecedor
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: cep_fornecedor
+      description: COMPLETAR DOCUMENTAÇÃO
+    - name: pais_fornecedor
+      description: COMPLETAR DOCUMENTAÇÃO
